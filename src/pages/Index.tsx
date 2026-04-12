@@ -1,28 +1,20 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import ExecutiveSummary from "@/components/ExecutiveSummary";
-import CompanyDescription from "@/components/CompanyDescription";
-import MarketAnalysis from "@/components/MarketAnalysis";
-import ProductSection from "@/components/ProductSection";
-import TeamSection from "@/components/TeamSection";
-import MarketingStrategy from "@/components/MarketingStrategy";
-import FundingSection from "@/components/FundingSection";
-import FinancialProjections from "@/components/FinancialProjections";
-import Footer from "@/components/Footer";
+import CarNavbar from "@/components/CarNavbar";
+import CarHero from "@/components/CarHero";
+import CarGallery from "@/components/CarGallery";
+import CarAbout from "@/components/CarAbout";
+import CarServices from "@/components/CarServices";
+import CarContact from "@/components/CarContact";
+import CarFooter from "@/components/CarFooter";
 
 const Index = () => (
   <div className="min-h-screen bg-background">
-    <Navbar />
-    <HeroSection />
-    <ExecutiveSummary />
-    <CompanyDescription />
-    <MarketAnalysis />
-    <ProductSection />
-    <TeamSection />
-    <MarketingStrategy />
-    <FundingSection />
-    <FinancialProjections />
-    <Footer />
+    <CarNavbar />
+    <CarHero />
+    <CarGallery />
+    <CarAbout />
+    <CarServices />
+    <CarContact />
+    <CarFooter />
   </div>
 );
 
