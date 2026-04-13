@@ -3,26 +3,26 @@ import SectionHeading from "./SectionHeading";
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 const revenueData = [
-  { year: "2027", revenue: 1.2, costs: 2.1 },
-  { year: "2028", revenue: 5.8, costs: 4.2 },
-  { year: "2029", revenue: 14.5, costs: 9.1 },
-  { year: "2030", revenue: 28.0, costs: 15.5 },
-  { year: "2031", revenue: 45.0, costs: 22.0 },
+  { year: "2027", revenue: 0.6, costs: 0.9 },
+  { year: "2028", revenue: 2.4, costs: 1.8 },
+  { year: "2029", revenue: 6.2, costs: 3.8 },
+  { year: "2030", revenue: 12.0, costs: 6.5 },
+  { year: "2031", revenue: 20.0, costs: 9.8 },
 ];
 
 const metrics = [
-  { label: "Year 1 Revenue", value: "$1.2M" },
-  { label: "Break-Even", value: "Month 18" },
-  { label: "Year 1 Net Profit", value: "−$900K" },
-  { label: "Year 3 Net Profit", value: "$5.4M" },
-  { label: "5-Year ROI", value: "920%" },
-  { label: "Gross Margin", value: "68%" },
+  { label: "Year 1 Revenue", value: "$600K" },
+  { label: "Break-Even", value: "Month 14" },
+  { label: "Year 1 Net Profit", value: "−$300K" },
+  { label: "Year 3 Net Profit", value: "$2.4M" },
+  { label: "5-Year ROI", value: "1,250%" },
+  { label: "Gross Margin", value: "65%" },
 ];
 
 const FinancialProjections = () => (
   <section id="financials" className="section-padding bg-card/50">
     <div className="max-w-6xl mx-auto">
-      <SectionHeading label="Projections" title="Financial Outlook" description="Conservative projections based on 500-unit Year 1 production at $2,400 ASP, scaling to 12,000 units by Year 5." />
+      <SectionHeading label="Projections" title="Financial Outlook" description="Conservative projections based on 250-unit Year 1 production at $2,400 ASP, scaling to 8,000 units by Year 5." />
 
       <div className="grid lg:grid-cols-3 gap-8 mb-12">
         {metrics.map((m, i) => (

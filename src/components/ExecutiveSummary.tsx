@@ -11,7 +11,7 @@ const ExecutiveSummary = () => (
       />
       <div className="grid md:grid-cols-3 gap-8">
         {[
-          { num: "$2.5M", label: "Seed Funding", desc: "Seeking initial investment to bring Portentum from prototype to market." },
+          { num: "$850K", label: "Seed Funding", desc: "Seeking initial investment to bring Portentum from prototype to market." },
           { num: "$80B+", label: "Market Size", desc: "Global luxury goods market with rapid growth in smart wearables." },
           { num: "2027", label: "Target Launch", desc: "Full commercial launch with exclusive retail partnerships worldwide." },
         ].map((item, i) => (

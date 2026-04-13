@@ -16,7 +16,7 @@ const FundingSection = () => (
       <SectionHeading
         label="Investment"
         title="Funding Request"
-        description="Seeking $2.5M in seed funding to finalize product development, secure manufacturing partnerships, and launch go-to-market strategy."
+        description="Seeking $850K in seed funding to finalize product development, secure manufacturing partnerships, and launch go-to-market strategy."
       />
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <motion.div
@@ -55,7 +55,7 @@ const FundingSection = () => (
             </motion.div>
           ))}
           <div className="pt-4 border-t border-border">
-            <p className="text-2xl font-display text-gradient-gold">$2,500,000</p>
+            <p className="text-2xl font-display text-gradient-gold">$850,000</p>
             <p className="text-xs text-muted-foreground mt-1">Total Seed Round</p>
           </div>
         </div>
