@@ -4,8 +4,8 @@ import { Shield, Cpu, Gem } from "lucide-react";
 
 const points = [
   { icon: Shield, title: "The Problem", text: "Luxury watches lack intelligence. Smartwatches lack prestige. No product serves the affluent, tech-savvy consumer who refuses to compromise." },
-  { icon: Cpu, title: "Our Solution", text: "Portentum combines Swiss-grade craftsmanship with proprietary on-device AI — health insights, predictive scheduling, and a concierge assistant, all in a timepiece worthy of the boardroom." },
-  { icon: Gem, title: "Why Us", text: "Our founding team blends decades of luxury brand experience with deep AI/ML expertise. We hold two provisional patents on miniaturized AI inference engines for wearables." },
+  { icon: Cpu, title: "Our Solution", text: "Portentum combines Swiss-grade craftsmanship with cutting-edge on-device AI — powered through a strategic partnership with a leading AI company — delivering health insights, predictive scheduling, and a concierge assistant, all in a timepiece worthy of the boardroom." },
+  { icon: Gem, title: "Why Us", text: "Our founding team blends decades of luxury brand experience with deep AI/ML expertise. We are actively pursuing a licensing partnership with an established AI firm to integrate best-in-class inference engines for wearables." },
 ];
 
 const CompanyDescription = () => (
