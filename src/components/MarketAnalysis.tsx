@@ -64,7 +64,7 @@ const MarketAnalysis = () => (
           <div className="mt-8 p-5 border border-primary/30 rounded-lg bg-primary/5">
             <p className="text-sm font-display text-primary">Target Demographics</p>
             <p className="text-sm text-muted-foreground mt-2">
-              HNW individuals aged 30–55 · Tech executives & founders · Luxury collectors · Global market with focus on US, EU, Middle East & Asia-Pacific
+              HNW individuals aged 30 to 55 · Tech executives & founders · Luxury collectors · Global market with focus on US, EU, Middle East & Asia Pacific
             </p>
           </div>
         </motion.div>

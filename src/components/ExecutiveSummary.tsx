@@ -7,7 +7,7 @@ const ExecutiveSummary = () => (
       <SectionHeading
         label="Executive Summary"
         title="Redefining Luxury Tech"
-        description="Aeternum – Portentum bridges the gap between haute horlogerie and cutting-edge AI, creating an entirely new category in the $80B luxury goods market."
+        description="Aeternum Portentum bridges the gap between haute horlogerie and cutting-edge AI, creating an entirely new category in the $80B luxury goods market."
       />
       <div className="grid md:grid-cols-3 gap-8">
         {[
