@@ -6,7 +6,7 @@ import { Brain, Heart, Globe, Fingerprint } from "lucide-react";
 const features = [
   { icon: Brain, title: "On-Device AI", desc: "Partner-integrated neural engine processes 1B parameters locally. No cloud dependency." },
   { icon: Heart, title: "Health Intelligence", desc: "Medical-grade sensors with predictive health insights and early anomaly detection." },
-  { icon: Globe, title: "AI Concierge", desc: "Personal assistant that learns your patterns — travel, dining, scheduling, communications." },
+  { icon: Globe, title: "AI Concierge", desc: "Personal assistant that learns your patterns: travel, dining, scheduling, communications." },
   { icon: Fingerprint, title: "Biometric Security", desc: "Multi-factor authentication via heartbeat signature and on-wrist detection." },
 ];
 

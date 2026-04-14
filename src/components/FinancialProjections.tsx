@@ -13,7 +13,7 @@ const revenueData = [
 const metrics = [
   { label: "Year 1 Revenue", value: "$600K" },
   { label: "Break-Even", value: "Month 14" },
-  { label: "Year 1 Net Profit", value: "−$300K" },
+  { label: "Year 1 Net Profit", value: "($300K)" },
   { label: "Year 3 Net Profit", value: "$2.4M" },
   { label: "5-Year ROI", value: "1,250%" },
   { label: "Gross Margin", value: "65%" },
