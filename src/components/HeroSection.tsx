@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroWatch from "@/assets/hero-watch.jpg";
+import heroWatch from "@/assets/hero-watch.png";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -28,7 +28,7 @@ const HeroSection = () => (
         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
           <a
             href="#about"
-            className="px-8 py-3 bg-primary text-primary-foreground text-sm tracking-widest uppercase font-medium rounded-sm hover:bg-gold-light transition-colors"
+            className="px-8 py-3 bg-primary text-primary-foreground text-sm tracking-widest uppercase font-medium rounded-sm hover:bg-primary/80 transition-colors"
           >
             Discover More
           </a>

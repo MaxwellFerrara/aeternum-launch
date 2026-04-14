@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
-import lifestyleWatch from "@/assets/lifestyle-watch.jpg";
+import explodedWatch from "@/assets/exploded-watch.png";
+import watchFaces from "@/assets/watch-faces.png";
 import { Brain, Heart, Globe, Fingerprint } from "lucide-react";
 
 const features = [
@@ -23,11 +24,9 @@ const ProductSection = () => (
           transition={{ duration: 0.6 }}
         >
           <img
-            src={lifestyleWatch}
-            alt="Portentum on wrist lifestyle shot"
+            src={explodedWatch}
+            alt="Portentum exploded view showing internal components"
             loading="lazy"
-            width={1280}
-            height={720}
             className="rounded-lg glow-gold"
           />
         </motion.div>
@@ -48,6 +47,22 @@ const ProductSection = () => (
           ))}
         </div>
       </div>
+
+      {/* Watch Faces Showcase */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="mb-20"
+      >
+        <img
+          src={watchFaces}
+          alt="Portentum watch faces showing different display modes"
+          loading="lazy"
+          className="rounded-lg w-full glow-gold"
+        />
+      </motion.div>
 
       {/* Specs strip */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
