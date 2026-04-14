@@ -3,9 +3,9 @@ import SectionHeading from "./SectionHeading";
 import { Shield, Cpu, Gem } from "lucide-react";
 
 const points = [
-  { icon: Shield, title: "The Problem", text: "Luxury watches lack intelligence. Smartwatches lack prestige. No product serves the affluent, tech-savvy consumer who refuses to compromise." },
-  { icon: Cpu, title: "Our Solution", text: "Portentum combines Swiss-grade craftsmanship with cutting-edge on-device AI, powered through a strategic partnership with a leading AI company, delivering health insights, predictive scheduling, and a concierge assistant, all in a timepiece worthy of the boardroom." },
-  { icon: Gem, title: "Why Us", text: "Our founding team blends decades of luxury brand experience with deep AI/ML expertise. We are actively pursuing a licensing partnership with an established AI firm to integrate best-in-class inference engines for wearables." },
+  { icon: Shield, title: "The Problem", text: "If you want a luxury watch, you give up smart features. If you want a smartwatch, it looks and feels cheap. There's nothing out there for people who want both." },
+  { icon: Cpu, title: "Our Solution", text: "Portentum is a premium watch that actually does something. We're partnering with a top AI company to build real, useful features like health tracking, smart scheduling, and a personal assistant, all right on your wrist." },
+  { icon: Gem, title: "Why Us", text: "We're two high school students who saw a gap in the market and decided to fill it. We're working on a deal with an established AI company to bring the best tech into a watch that actually looks good." },
 ];
 
 const CompanyDescription = () => (

@@ -21,7 +21,7 @@ const MarketAnalysis = () => (
       <SectionHeading
         label="Market Analysis"
         title="A $8B Untapped Opportunity"
-        description="The intersection of luxury timepieces and AI wearables creates a new market segment with zero dominant players."
+        description="Luxury watches and AI wearables are two massive markets, but nobody is combining them. That's our opportunity."
       />
       <div className="grid lg:grid-cols-2 gap-12 items-start">
         <motion.div
@@ -62,9 +62,9 @@ const MarketAnalysis = () => (
             ))}
           </div>
           <div className="mt-8 p-5 border border-primary/30 rounded-lg bg-primary/5">
-            <p className="text-sm font-display text-primary">Target Demographics</p>
+            <p className="text-sm font-display text-primary">Who We're Selling To</p>
             <p className="text-sm text-muted-foreground mt-2">
-              HNW individuals aged 30 to 55 · Tech executives & founders · Luxury collectors · Global market with focus on US, EU, Middle East & Asia Pacific
+              Wealthy individuals aged 30 to 55 · Tech executives and founders · Luxury collectors · Focused on the US, Europe, Middle East, and Asia
             </p>
           </div>
         </motion.div>

@@ -3,10 +3,10 @@ import SectionHeading from "./SectionHeading";
 import { Instagram, Globe, Users, Award } from "lucide-react";
 
 const channels = [
-  { icon: Instagram, title: "Social Media", desc: "Curated campaigns on Instagram, TikTok & LinkedIn targeting UHNW audiences and tech influencers." },
-  { icon: Globe, title: "DTC E-Commerce", desc: "Exclusive online boutique with white-glove concierge ordering and AR try-on." },
-  { icon: Users, title: "Strategic Partnerships", desc: "Placement in Harrods, Selfridges, Dubai Mall, and invitation-only trunk shows." },
-  { icon: Award, title: "Brand Ambassadors", desc: "Partnerships with elite athletes, tech founders, and cultural icons." },
+  { icon: Instagram, title: "Social Media", desc: "Running targeted campaigns on Instagram, TikTok, and LinkedIn to reach people who care about luxury and tech." },
+  { icon: Globe, title: "Online Store", desc: "Our own website with a premium shopping experience and AR try-on so you can see it on your wrist before buying." },
+  { icon: Users, title: "Retail Partners", desc: "Getting into top stores like Harrods and Dubai Mall, plus exclusive invite-only events." },
+  { icon: Award, title: "Brand Partners", desc: "Working with athletes, tech founders, and well-known figures to spread the word." },
 ];
 
 const MarketingStrategy = () => (

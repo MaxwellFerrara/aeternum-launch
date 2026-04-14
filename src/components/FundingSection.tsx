@@ -16,7 +16,7 @@ const FundingSection = () => (
       <SectionHeading
         label="Investment"
         title="Funding Request"
-        description="Seeking $850K in seed funding to finalize product development, secure manufacturing partnerships, and launch go-to-market strategy."
+        description="We're looking for $850K to finish building the product, lock in manufacturing, and start selling."
       />
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <motion.div

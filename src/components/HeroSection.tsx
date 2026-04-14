@@ -23,7 +23,7 @@ const HeroSection = () => (
           Smartwatch
         </h1>
         <p className="text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-8 text-lg font-light leading-relaxed">
-          Where centuries of horological mastery meet the boundless potential of artificial intelligence. Crafted for visionaries who demand the extraordinary.
+          A watch that looks like it belongs in a luxury store but thinks like a supercomputer. Built for people who want the best of both worlds.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
           <a
