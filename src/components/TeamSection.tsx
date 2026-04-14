@@ -2,17 +2,15 @@ import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
 
 const team = [
-  { name: "Alexander Voss", role: "CEO & Co-Founder", desc: "15 years at LVMH, former VP Product at Richemont" },
-  { name: "Dr. Elena Chen", role: "CTO & Co-Founder", desc: "Ex-Google DeepMind, PhD in Edge AI, 12 patents" },
-  { name: "Marcus Rivera", role: "Head of Design", desc: "Former lead designer at Audemars Piguet" },
-  { name: "Sophia Laurent", role: "CMO", desc: "Built DTC channels for two luxury unicorns" },
+  { name: "Max Ferrara", role: "Co-Founder", desc: "Chaparral High School Student" },
+  { name: "Mason Lovejoy", role: "Co-Founder", desc: "Chaparral High School Student" },
 ];
 
 const TeamSection = () => (
   <section id="team" className="section-padding bg-card/50">
     <div className="max-w-5xl mx-auto">
-      <SectionHeading label="Leadership" title="Organization & Management" description="A world-class team at the intersection of luxury, technology, and design." />
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <SectionHeading label="Leadership" title="Organization & Management" description="The founding team behind Aeternum Portentum." />
+      <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
         {team.map((t, i) => (
           <motion.div
             key={i}
