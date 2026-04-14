@@ -22,7 +22,7 @@ const metrics = [
 const FinancialProjections = () => (
   <section id="financials" className="section-padding bg-card/50">
     <div className="max-w-6xl mx-auto">
-      <SectionHeading label="Projections" title="Financial Outlook" description="Conservative projections based on 250-unit Year 1 production at $2,400 ASP, scaling to 8,000 units by Year 5." />
+      <SectionHeading label="Projections" title="Financial Outlook" description="These are safe estimates based on making 250 watches in Year 1 at $2,400 each, and scaling up to 8,000 by Year 5." />
 
       <div className="grid lg:grid-cols-3 gap-8 mb-12">
         {metrics.map((m, i) => (

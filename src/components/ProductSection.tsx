@@ -4,16 +4,16 @@ import lifestyleWatch from "@/assets/lifestyle-watch.jpg";
 import { Brain, Heart, Globe, Fingerprint } from "lucide-react";
 
 const features = [
-  { icon: Brain, title: "On-Device AI", desc: "Partner-integrated neural engine processes 1B parameters locally. No cloud dependency." },
-  { icon: Heart, title: "Health Intelligence", desc: "Medical-grade sensors with predictive health insights and early anomaly detection." },
-  { icon: Globe, title: "AI Concierge", desc: "Personal assistant that learns your patterns: travel, dining, scheduling, communications." },
-  { icon: Fingerprint, title: "Biometric Security", desc: "Multi-factor authentication via heartbeat signature and on-wrist detection." },
+  { icon: Brain, title: "On-Device AI", desc: "All the AI runs right on the watch itself, no need for your phone or the cloud." },
+  { icon: Heart, title: "Health Tracking", desc: "Tracks your health with medical-level sensors and gives you useful insights before problems happen." },
+  { icon: Globe, title: "AI Assistant", desc: "A personal assistant that learns how you live: your schedule, your travel, your preferences." },
+  { icon: Fingerprint, title: "Security", desc: "Unlocks using your unique heartbeat pattern so only you can use it." },
 ];
 
 const ProductSection = () => (
   <section id="product" className="section-padding">
     <div className="max-w-6xl mx-auto">
-      <SectionHeading label="Product Line" title="Portentum Features" description="Engineered without compromise. Every component selected for performance and beauty." />
+      <SectionHeading label="Product Line" title="Portentum Features" description="Built to perform and built to look good. Every detail matters." />
 
       <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
         <motion.div
